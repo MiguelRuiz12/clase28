@@ -1,12 +1,13 @@
 //todo: hacer el front de la calculadora
 const process = require('process')
 const { argv } = process;
+const sumar = require('./sumar')
 
-function calculadora(comando) {
-    switch (key) {
+function calculadora(comando,a,b) {
+    switch (comando) {
         case "sumar":
+            return sumar (a,b);
 
-            break;
         case "restar":
 
             break;
